@@ -1,5 +1,3 @@
-</> Markdown
-
 # 思考アルゴリズム骨格論 Governance Framework Ver.1
 ## ― 認知構造への接続と知性間共存のための利用原則 ―
 
