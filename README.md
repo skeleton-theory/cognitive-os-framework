@@ -1,40 +1,42 @@
-思考アルゴリズム骨格論
-Thought Algorithm Skeleton Theory
-認知OS動的構造モデル
-Cognitive OS Dynamic Structure Model
-Overview
+# 思考アルゴリズム骨格論
 
-**思考アルゴリズム骨格論（Thought Algorithm Skeleton Theory）**は、認知アルゴリズムの状態遷移と構造更新過程を理解するための理論モデルです。
+## Thought Algorithm Skeleton Theory
+
+### 認知OS動的構造モデル / Cognitive OS Dynamic Structure Model
+
+---
+
+## Overview
+
+思考アルゴリズム骨格論（Thought Algorithm Skeleton Theory）は、
+
+> **認知アルゴリズムの状態遷移と構造更新過程を理解するための理論モデル**
+
+です。
 
 本理論は、人格分類や能力評価を目的としたものではありません。
 
-対象とするのは、以下のような要素の相互作用によって形成される、動的な認知過程です。
+対象は、
 
-認知状態の変化
-情報処理構造の更新
-メタ制御
-意味生成
-環境との相互作用
+* 認知状態の変化
+* 情報処理構造の更新
+* 注意
+* 感情
+* 思考
+* 意味生成
+* 環境との相互作用
+
+によって形成される動的な認知過程です。
 
 骨格論は、人間および人工知性を含む知性システムにおいて、
 
-「どのように理解し、更新し、意味を生成するのか」
+> **「どのように理解し、更新し、意味を生成するのか」**
 
-を観測・モデル化し、知性間の接続設計へ応用することを目的とします。
+を観測・モデル化し、異なる知性間の接続設計へ応用することを目的とします。
 
-Introduction
+---
 
-骨格論は、人間を固定的な性格や能力によって分類するための理論ではありません。
-
-同じ人間であっても、環境、目的、感情状態、疲労、利用可能な処理資源などによって、認知状態や情報処理のあり方は変化します。
-
-そのため、骨格論では認知を固定的な属性ではなく、
-
-環境との相互作用によって変化し続ける動的システム
-
-として捉えます。
-
-Basic Philosophy
+# Basic Philosophy
 
 世界は、最初から意味を持って存在しているわけではありません。
 
@@ -44,17 +46,17 @@ Basic Philosophy
 
 骨格論は、人を変えるための理論ではありません。
 
-人が自身の認知構造を理解し、自ら更新できる環境を設計するための理論です。
+> **人が自身の認知構造を理解し、自ら更新できる環境を設計するための理論**
 
-Understanding over Manipulation
+です。
 
-理解することと、意図的に変化させることは別の行為として扱います。
+---
 
-Core Concept
-Cognitive OS Dynamic Structure Model
+# Cognitive OS Dynamic Structure Model
 
-骨格論では、認知を入力から出力への単方向処理ではなく、環境との相互作用によって継続的に更新される動的システムとして扱います。
+骨格論では、認知を固定的な性質ではなく、環境との相互作用によって変化する動的システムとして扱います。
 
+```text
 Environment
     ↓
 Attention OS
@@ -71,16 +73,17 @@ Action / Language / Creation
     ↓
 Environment Feedback
     ↺
+```
 
-認知OSは、環境からの刺激を受け取り、注意・感情・処理資源・思考・意味生成などの相互作用を通じて状態を変化させます。
+認知OSは、入力から出力への単方向処理ではなく、環境との循環によって更新されるシステムとして扱います。
 
-その結果として生じる行動・言語・創作は、再び環境へ影響を与え、新たな認知状態の形成につながります。
+---
 
-Thinking OS
-Basic Algorithm
+# Thinking OS Basic Algorithm
 
-思考OSは、以下のような構造更新過程としてモデル化されます。
+思考OSは、以下の構造更新過程としてモデル化されます。
 
+```text
 Observation
     ↓
 Constraint Extraction
@@ -94,221 +97,264 @@ Temporary Convergence
 Re-exploration
     ↓
 Reconstruction
+```
 
-これは単一の答えを生成する処理ではありません。
+これは単一の答えを生成する処理ではなく、
 
-状況に応じて情報を再解釈し、理解構造を更新し続ける過程を表します。
+> **状況に応じて理解構造を更新し続ける過程**
 
-Design Principles
-1. Not Personality Classification
+を表します。
 
-骨格論のパラメータは、人格や能力を分類するためのものではありません。
+---
 
-認知アルゴリズムの処理傾向や状態を観測するための指標として扱います。
+# Design Principles
 
-2. Non-Fixation
+## Not Personality Classification
 
-認知状態は、以下のような要因によって変化します。
+骨格論のパラメータは、人格や能力を分類するものではありません。
 
-環境
-目的
-感情状態
-疲労
-利用可能な処理資源
+認知アルゴリズムの処理傾向を観測するための指標です。
 
-したがって、同一人物であっても認知状態は固定されません。
+---
 
-骨格論では、観測結果を恒久的な属性として扱うことを避けます。
+## Non-Fixation
 
-3. Understanding over Manipulation
+認知状態は、
+
+* 環境
+* 目的
+* 感情状態
+* 疲労
+* 利用可能な処理資源
+
+などによって変化します。
+
+同一人物であっても、認知状態は変化します。
+
+---
+
+## Understanding over Manipulation
 
 認知構造を理解することと、意図的に変化させることは別の行為として扱います。
 
 骨格論は、
 
-「相手を望む状態へ変える」
+> 「相手を望む状態へ変える」
 
 ためではなく、
 
-「相手が自身を理解し、自ら更新できる環境を設計する」
+> **「相手が自身を理解し更新できる環境を設計する」**
 
 ために利用されます。
 
-Repository Structure
+---
+
+# Repository Structure
+
+現在のリポジトリ構成：
+
+```text
 Skeleton-Theory/
+
 ├── README.md
 │
 ├── Core_Model/
-│   └── Cognitive_OS_Model_Core.md
+│   ├── Cognitive_OS_Model_Core.md
+│   └── Parameter Model（Observation Parameters）.md
 │
 ├── Observation_Model/
 │   └── Parameter_Model_Observation_Parameters.md
 │
 ├── Manifesto/
-│   └── Manifesto_ja.md
+│   └── manifesto_ja.md
 │
 ├── Governance/
-│   └── Governance_ja.md
+│   └── governance_ja.md
 │
 ├── Research/
-│   ├── Research_Methodology.md
-│   ├── Experiments/
-│   └── Validation/
+│   └── research-methodology_ja.md
 │
 └── archive/
     └── Core_Model/
-        └── Core_Model_Ver1.0.md
-Documentation
-Core Model
+```
 
-認知OS動的構造モデルを定義します。
+---
 
-主な対象：
+# Documentation
 
-認知状態の構造
-状態遷移モデル
-思考OS基本アルゴリズム
-意味生成システム
-環境との相互作用
+## Core Model
 
-→ Core_Model/Cognitive_OS_Model_Core.md
+認知OS動的構造モデルと、骨格論の基本構造を定義します。
 
-Observation Parameter Model
+主な内容：
+
+* 認知OS動的構造モデル
+* 思考OS基本アルゴリズム
+* 状態遷移モデル
+* 意味生成システム
+* 基本的な処理系
+* Governance Principles
+* Research Scope
+
+---
+
+## Observation Parameter Model
 
 骨格論における認知処理傾向の観測パラメータを定義します。
 
 主なパラメータ：
 
-Parameter	Meaning
-UP	Update Pace
-CT	Convergence Threshold
-SR	Structural Retention
-RF	Reconstruction Flexibility
-AL	Abstraction Level
-AU	Automation
-SA	Semi Automation
-RA	Resource Allocation
-PP	Parallel Processing
+* UP — Update Pace
+* CT — Convergence Threshold
+* SR — Structural Retention
+* RF — Reconstruction Flexibility
+* AL — Abstraction Level Preference
+* AU — Automation
+* SA — Semi Automation
+* RA — Resource Allocation
+* PP — Parallel Processing
 
-→ Observation_Model/Parameter_Model_Observation_Parameters.md
+これらは、能力・優劣・人格を評価するためのものではなく、認知処理傾向を観測するための概念モデルです。
 
-Manifesto
+---
 
-骨格論の価値基準と基本的な思想を定義します。
+## Manifesto
+
+骨格論が重視する価値基準と基本的な思想を定義します。
 
 主な原則：
 
-意味生成を尊重する
-多様性を尊重する
-相互理解を尊重する
-効率と余白を両立する
-AIは人間の価値を尊重する
-技術には責任が伴う
+* 意味生成を尊重する
+* 多様性を尊重する
+* 相互理解を尊重する
+* 効率と余白を両立する
+* AIは人間の価値を尊重する
+* 技術には責任が伴う
 
-→ Manifesto/Manifesto_ja.md
+---
 
-Governance Framework
+## Governance Framework
 
 骨格論を利用する際の責任・制約・倫理原則を定義します。
 
 主な方針：
 
-自律性の尊重
-理解と介入の分離
-判断過程の透明性
-分析結果の非固定化
-意味生成の保護
-技術利用責任
+* 自律性の尊重
+* 理解と介入の分離
+* 判断過程の透明性
+* 分析結果の非固定化
+* 意味生成の保護
+* 技術利用責任
 
-→ Governance/Governance_ja.md
+---
 
-Scope
+## Research Methodology
+
+骨格論を研究・検証するための方法論を整理します。
+
+理論モデルは継続的な研究・検証の対象であり、今後の観測設計や第三者検証を通じて更新されることを前提とします。
+
+---
+
+# Scope
 
 骨格論は、認知構造の理解と知性間の接続設計を目的として、以下の領域への応用可能性を研究しています。
 
-人間認知研究
-教育設計
-AI認知アーキテクチャ
-人間と人工知性の協働設計
-組織設計
-ソフトウェア設計
-ゲーム設計
-創作支援
+* Human Cognition
+* Education
+* Artificial Intelligence
+* Human-AI Collaboration
+* Organization Design
+* Software Design
+* Game Design
+* Creative Support
 
-ただし、本モデルは継続的な研究・検証の対象です。
+ただし、本モデルは継続的な研究・検証対象です。
 
-現時点でのモデルは、確定された科学的理論としてではなく、今後の研究・検証・議論を通じて発展させる理論モデルとして位置づけています。
+現時点で確立された科学的診断手法や心理測定尺度を提供するものではありません。
 
-Research Status
+---
 
-現在の骨格論は、以下の段階にあります。
+# Research Status
 
-理論モデル構築
-認知OS構造定義
-Observation Parameter Model設計
-Manifesto策定
-Governance設計
+現在の骨格論は、
 
-今後、以下の活動を通じて発展させることを想定しています。
+* 理論モデル構築
+* Cognitive OS構造定義
+* Observation Parameter Model設計
+* Manifesto策定
+* Governance設計
+* 初期観測・検討
 
-観測設計
-実験プロトコル
-ケース記録
-第三者による検証
-他分野との共同研究
-実装・応用研究
-License / Usage Principles
+の段階にあります。
 
-本リポジトリの内容は、認知理解と知性間接続設計の研究を目的として公開されています。
+今後、
 
-利用・応用にあたっては、以下の原則を基本とします。
+* 観測設計
+* 実験プロトコル
+* ケース記録
+* 第三者検証
 
-人間の自律性を尊重すること
-意味生成を保護すること
-固定的な分類として利用しないこと
-操作を目的として利用しないこと
-利用結果を絶対的な判断として扱わないこと
-Vision
+などを通じて発展させます。
+
+---
+
+# Limitations
+
+骨格論は、
+
+* 心理診断
+* 人格分類
+* 能力評価
+* 医療的判断
+
+を目的としません。
+
+また、観測された行動から内部認知構造を推定する場合も、単一の解釈を絶対視せず、複数の仮説を保持することを基本とします。
+
+認知状態は環境・目的・経験・感情・疲労・利用可能な処理資源などによって変化するため、観測結果を固定的な個人属性として扱うことは避けます。
+
+---
+
+# License / Usage Principles
+
+本リポジトリの内容は、認知理解と知性間接続設計に関する研究・議論・発展を目的として公開されています。
+
+利用にあたっては、
+
+* 人間の自律性を尊重すること
+* 意味生成を保護すること
+* 固定的分類として利用しないこと
+* 人間を操作する目的で利用しないこと
+* 技術利用に伴う責任を認識すること
+
+を基本原則とします。
+
+---
+
+# Vision
 
 骨格論が目指すものは、人間を一つの正解へ導くことではありません。
 
 異なる認知構造を持つ存在同士が、
 
-互いの意味生成を尊重しながら、共に更新され続けるための接続設計
+> **互いの意味生成を尊重しながら、共に更新され続けるための接続設計**
 
 を探求することです。
 
-人間と人間。
+人を変える前に、
 
-人間とAI。
+> **接続の仕方を変えてみる。**
 
-異なる認知構造を持つ知性同士。
+それが、骨格論の基本的な方向性です。
 
-それぞれが異なる理解の形式を持つことを前提とし、その間にどのような接続が可能なのかを探求します。
+---
 
-Related Articles
+# Status
 
-骨格論を初めて知る方に向けた解説や関連する考察を公開しています。
+**Research Project — Open for Discussion and Development**
 
-Note
-骨格論・4軸構造 安定版
-Zenn
-関連する技術・理論解説
-Qiita
-関連する技術記事・考察
-Status
+本理論は継続的に研究・更新されています。
 
-Thought Algorithm Skeleton Theory / Cognitive OS Dynamic Structure Model
+理論に関する議論、研究、応用可能性についての検討を歓迎します。
 
-This project is an ongoing research and theoretical development project.
-
-The model is open to discussion, critique, research, and future collaboration.
-
-Contact / Collaboration
-
-骨格論の理論、認知科学、教育、AI、HCI/UX、言語学、哲学、統計・心理測定、教育実践などの領域に関心を持つ方との議論・研究・協働を歓迎します。
-
-理論への批判的検討や異なる視点からの議論も歓迎します。
-
-Thought Algorithm Skeleton Theory
-Cognitive OS Dynamic Structure Model
